@@ -129,4 +129,5 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/istream \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/istream.tcc
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/istream.tcc \
+ D:/C_Program/cmake-3.30.1-tutorial-source/build/TutorialConfig.h
