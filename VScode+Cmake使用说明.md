@@ -108,9 +108,43 @@ target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}") # 该命令�
       # 当前目录为工作空间
       mkdir build		# 创建build文件夹
       cd build	# 进入build文件夹
-      cmake ../Step1		# 选择需要编译文件目录
+      cmake ../Step1 -G "Unix Makefiles"		# 选择需要编译文件目录
       cmake --build .		# 生成可执行文件
       make	# 如果不是第一次编译，可以直接使用make生成可执行文件
       ```
       
       2. 编译逻辑：创建存放编译文件的文件夹-->在文件夹中执行cmake命令(指定要参照的CmakeLists所在的文件夹)用于创建makefile-->执行编译，该编译创建的是对应文件夹可执行程序的执行文件
+      
+      3. 编译问题表：[用CMake构建工程时 cmake -G“Unix Makefiles“ 的使用_cmake -g "unix makefiles-CSDN博客](https://blog.csdn.net/yangjia_cheng/article/details/111408753)
+      
+         如 
+      
+         ```java
+         cmake ../Step1 -G "Unix Makefiles"
+         ```
+      
+         则为正确
+
+### 2. 个人库的构建
+
+1. 构建过程：
+
+```mermaid
+graph LR
+	subgraph 工程目录
+	direction LR
+        subgraph subdirectory
+            direction TB
+            Function.cxx--1.创建库-->sublibrary 
+            Function.h
+        end
+        subgraph src
+        	project
+        end
+        subdirectory --2.添加路径-->project
+        sublibrary--3.链接-->project
+        subdirectory --4.添加.h所在路径-->project
+        Function.h--添加-->myproject.cxx
+    end
+```
+

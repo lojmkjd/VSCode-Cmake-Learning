@@ -1,0 +1,3 @@
+D:/C_Program/cmake-3.30.1-tutorial-source/build/CMakeFiles/CMakeScratch/TryCompile-48fkeo/CMakeFiles/cmTC_adbc6.dir
+D:/C_Program/cmake-3.30.1-tutorial-source/build/CMakeFiles/CMakeScratch/TryCompile-48fkeo/CMakeFiles/edit_cache.dir
+D:/C_Program/cmake-3.30.1-tutorial-source/build/CMakeFiles/CMakeScratch/TryCompile-48fkeo/CMakeFiles/rebuild_cache.dir

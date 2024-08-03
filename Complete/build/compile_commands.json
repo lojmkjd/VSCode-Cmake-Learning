@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/Tutorial.dir/includes_CXX.rsp -g -Wall -Wextra -Wshadow -Wformat=2 -Wunused -o CMakeFiles/Tutorial.dir/tutorial.cxx.obj -c D:/C_Program/cmake-3.30.1-tutorial-source/Complete/tutorial.cxx",
+  "file": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/tutorial.cxx",
+  "output": "CMakeFiles/Tutorial.dir/tutorial.cxx.obj"
+},
+{
+  "directory": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/build/MathFunctions",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -Wall -Wextra -Wshadow -Wformat=2 -Wunused -o CMakeFiles/MakeTable.dir/MakeTable.cxx.obj -c D:/C_Program/cmake-3.30.1-tutorial-source/Complete/MathFunctions/MakeTable.cxx",
+  "file": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/MathFunctions/MakeTable.cxx",
+  "output": "MathFunctions/CMakeFiles/MakeTable.dir/MakeTable.cxx.obj"
+},
+{
+  "directory": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/build/MathFunctions",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/SqrtLibrary.dir/includes_CXX.rsp -g -Wall -Wextra -Wshadow -Wformat=2 -Wunused -o CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.obj -c D:/C_Program/cmake-3.30.1-tutorial-source/Complete/MathFunctions/mysqrt.cxx",
+  "file": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/MathFunctions/mysqrt.cxx",
+  "output": "MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.obj"
+},
+{
+  "directory": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/build/MathFunctions",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -DEXPORTING_MYMATH -DMathFunctions_EXPORTS -DUSE_MYMATH  -g -Wall -Wextra -Wshadow -Wformat=2 -Wunused -o CMakeFiles/MathFunctions.dir/MathFunctions.cxx.obj -c D:/C_Program/cmake-3.30.1-tutorial-source/Complete/MathFunctions/MathFunctions.cxx",
+  "file": "D:/C_Program/cmake-3.30.1-tutorial-source/Complete/MathFunctions/MathFunctions.cxx",
+  "output": "MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.obj"
+}
+]

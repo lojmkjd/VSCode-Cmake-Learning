@@ -1,8 +1,0 @@
-[
-{
-  "directory": "D:/C_Program/cmake-3.30.1-tutorial-source/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/Tutorial.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Tutorial.dir/tutorial.cxx.obj -c D:/C_Program/cmake-3.30.1-tutorial-source/Step1/tutorial.cxx",
-  "file": "D:/C_Program/cmake-3.30.1-tutorial-source/Step1/tutorial.cxx",
-  "output": "CMakeFiles/Tutorial.dir/tutorial.cxx.obj"
-}
-]
